@@ -17,7 +17,7 @@ const mostrarTabla = () => {
         // console.log(multiplicar)
 
         mostrarTabla.appendChild(li);
-        li.innerHTML = multiplicar
+        li.innerHTML = `${numero} x ${i} = ${multiplicar}`
     }
 }
 
