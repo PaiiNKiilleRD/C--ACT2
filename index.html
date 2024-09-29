@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+</head>
+<body class="flex items-center justify-center h-screen w-full gap-10 bg-sky-300">
+    
+    <div class="w-[320px] shadow-md rounded shadow-blue-300 bg-white border border-slate-500 flex flex-col items-center justify-center gap-2 px-4 py-3">
+        <h1 class="text-xl font-bold">Tabla de Multiplicar</h1>
+        <label for="numero">Numero</label>
+        <input type="text" name="numero" id="numero" placeholder="Escriba el numbero">
+        <button id="btnTabla" class="bg-blue-500 px-4 py-2">Ver tabla</button>
+
+        <ul id="mostrarTabla"></ul>
+    </div>
+
+
+    <div class="w-[320px] shadow-md rounded shadow-blue-300 bg-white border border-slate-500 flex flex-col items-center justify-center gap-2 px-4 py-3">
+        <h1 class="text-xl font-bold">Meses del Anio</h1>
+        <label for="inputMes">Insertar mes</label>
+        <input type="text" name="inputMes" id="inputMes" placeholder="Insertar mes">
+        <p>El mes es: <span id="mostrarMes"></span></p>
+        <button id="btnMes" class="bg-blue-500 px-4 py-2">Ver mes</button>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
